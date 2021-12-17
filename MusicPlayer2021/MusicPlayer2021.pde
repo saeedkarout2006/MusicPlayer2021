@@ -16,7 +16,8 @@ void setup() {
   textSetup();
   //
   minim = new Minim(this); //load from data directory, loadFile should also load from project folder, like loadImage
-  song1 = minim.loadFile(""); //able to pass absolute path, file name, and URL
+  song1 = minim.loadFile("DivKid.mp3"); //able to pass absolute path, file name, and URL
+"); //able to pass absolute path, file name, and URL
   song1.play(); //Parameter is milli-seconds from start of audio file to start playing
 }//End setup()
 
@@ -30,3 +31,6 @@ void keyPressed() {
 void mousePressed() {
   powerButtonMousePressed();
 }//End mousepressed()
+© 2021 GitHub, Inc.
+Terms
+Privacy
